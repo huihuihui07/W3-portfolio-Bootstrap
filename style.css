@@ -38,39 +38,16 @@ p {
 }
 /* nav bar */
 .navbar-brand{
-  font-family: "Ms Madi", cursive;;
+  font-family: "Ms Madi", cursive;
 }
 
-nav .wrapper {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 100%;
-}
-
-.menu-items {
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-  gap: 50px;
-}
-
-.menu-items a {
-  color: var(--dark-gray);
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  text-decoration: none;
-  margin: 0 50px;
-}
 
 /* hero section */
-.hero-banner {
-  display: flex;
-  justify-content: center;
+
+.jumbotron  {
+
   height: screen;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
   background-image: url("./images/header-background.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -85,7 +62,7 @@ nav .wrapper {
 }
 
 /* about me section */
-.about-me-container {
+/* .about-me-container {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -110,7 +87,7 @@ nav .wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
+} */
 
 /* portfolio section */
 .page-section {

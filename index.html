@@ -22,20 +22,20 @@
   <body>
     <!-- main logo / nav -->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <a href="" class="navbar-brand">Hui Feng</a>
       <button
         class="navbar-toggler"
         type="button"
-        data-toggle="collapse"
-        data-target="#navbarToggler01"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarToggler01"
+        aria-controls="navbarToggler01"
+        aria-label="Expand Navigation"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a href="" class="navbar-brand">Hui Feng</a>
-      <section class="collapse navbar-collapse" id="navbarToggler01">
-        <ul class="navbar-nav ml-auto">
+
+      <div class="collapse navbar-collapse" id="navbarToggler01">
+        <ul class="navbar-nav ms-auto">
           <li class="nav-item">
             <a href="" class="nav-link">About</a>
           </li>
@@ -49,106 +49,51 @@
             <a href="" class="nav-link">Contact</a>
           </li>
         </ul>
-      </section>
-    </nav>
-    <!-- hero banner -->
-    <section class="hero-banner">
-      <div>
-        <h1 class="name">I'm Hui</h1>
-        <h4>Welcome to my Interactive Resume...</h4>
       </div>
-    </section>
+    </nav>
+    <!-- jumbotron -->
+
+    <div class="jumbotron">
+      <h1 class="display-2 name">I'm Hui</h1>
+      <h4 class="lead">Welcome to my Interactive Resume...</h4>
+
+      <p class="lead my-4">
+        <a class="btn btn-primary btn-md btn-dark" href="#" role="button"
+          >Contact me!</a
+        >
+      </p>
+    </div>
 
     <main class="page-wrapper">
       <!-- about me -->
 
-      <section class="about-me-container" id="about">
-        <section class="self-portrait">
-          <img
-            class="self-portrait-img"
-            src="./images/self-portrait.png"
-            alt="An image of Hui"
-          />
-        </section>
-        <section class="about-me-text">
-          <h2>About Me</h2>
-          <p>
-            Hello, I'm Hui, an Architect and Full Stack Developer based in
-            England. Over the years, I have gained expertise in a range of
-            technologies, including Java, JavaScript, Node.js, and React. I am
-            also passionate about great design, including UX/UI and
-            architecture. Lastly, I take pride in being a mother to two
-            children. In my free time, I enjoy reading, traveling, and indulging
-            in my occasional geeky side.
-          </p>
-        </section>
+      <section class="about-me container" id="about">
+        <div class="row d-flex align-items-center p-3">
+          <section class="col self-portrait col-md-6 col-sm-12">
+
+              <img
+                class="self-portrait-img img-fluid rounded-5"
+                src="./images/self-portrait.png"
+                alt="An image of Hui"
+              />
+   
+          </section>
+          <section class="about-me-text col-md-6 col-sm-12">
+            <h2>About Me</h2>
+            <p>
+              Hello, I'm Hui, an Architect and Full Stack Developer based in
+              England. Over the years, I have gained expertise in a range of
+              technologies, including Java, JavaScript, Node.js, and React. I am
+              also passionate about great design, including UX/UI and
+              architecture. Lastly, I take pride in being a mother to two
+              children. In my free time, I enjoy reading, traveling, and
+              indulging in my occasional geeky side.
+            </p>
+          </section>
+        </div>
       </section>
 
       <!-- portfolio container -->
-      <section class="page-section" id="work">
-        <h2>My Work</h2>
-        <section class="project-container">
-          <a
-            href="https://huihuihui07.github.io/Wiko-Digital/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="project project1"
-          >
-            <div class="project-heading">
-              <h4 class="project-name">Wiko Digital</h4>
-              <p>A display website for a 3D rendering company</p>
-            </div>
-          </a>
-          <section class="project" ID="project2">
-            <a
-              href="https://huihuihui07.github.io/Quote-Generator/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="project-heading">
-                <h4 class="project-name">Quote Generator</h4>
-                <p>A website generating random quotes</p>
-              </div></a
-            >
-          </section>
-          <section class="project" ID="project3">
-            <a
-              href="https://huihuihui07.github.io/Drum-Kit/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="project-heading">
-                <h4 class="project-name">Drum Kit</h4>
-                <p>A website of virtual drum kit that plays sound</p>
-              </div></a
-            >
-          </section>
-          <section class="project" ID="project4">
-            <a
-              href="https://huihuihui07.github.io/Wiko-Digital/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="project-heading">
-                <h4 class="project-name">Place Holder</h4>
-                <p>place holder for future projects</p>
-              </div></a
-            >
-          </section>
-          <section class="project" ID="project5">
-            <a
-              href="https://huihuihui07.github.io/Wiko-Digital/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div class="project-heading">
-                <h4 class="project-name">Place Holder</h4>
-                <p>place holder for future projects</p>
-              </div></a
-            >
-          </section>
-        </section>
-      </section>
 
       <!-- contact -->
       <section class="page-section contact" id="contact">
