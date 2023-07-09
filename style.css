@@ -37,22 +37,23 @@ p {
   font-family: "Roboto", sans-serif, Arial, sans-serif;
 }
 
-btn{
+btn {
   font-family: "Roboto", sans-serif, Arial, sans-serif;
 }
 
 /* nav bar */
-.navbar-brand{
+.navbar-brand {
   font-family: "Ms Madi", cursive;
 }
 
-
 /* hero section */
 
-.jumbotron  {
-
+.jumbotron {
   height: screen;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-image: url("./images/header-background.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -66,3 +67,6 @@ btn{
   font-size: 80px;
 }
 
+.nav-item > a:hover {
+  color: var(--dark-green) !important;
+}
